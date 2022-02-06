@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* --------------------------------- */
+
+.card {
+    width: 300px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-content {
+    padding: 30px;
+    text-align: center;
+}
+
+/* --------------------------------- */
+
+.card-middle {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right p {
+    text-decoration: underline;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.right p:hover {
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+}
+
+.left .bold {
+    font-weight: 900;
+}
+
+.left img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.left .center {
+    display: flex;
+    align-items: center;
+}
+
+.left span {
+    display: block;
+}
+
+/* --------------------------------- */
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(245, 75%, 52%);
+
+    box-shadow: 0px 10px 10px 0px hsla(245, 75%, 52%, 0.2);
+}
+
+button:hover {
+    background-color: hsla(245, 75%, 52%, 0.7);
+    cursor: pointer;
+}
+
+/* --------------------------------- */
+
+.footer {
+    padding: 20px 0 10px 0;
+}
+
+.footer:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* --------------------------------- */ 
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(../images/pattern-background-mobile.svg);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+    }
+}
