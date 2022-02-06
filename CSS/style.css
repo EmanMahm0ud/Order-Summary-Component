@@ -17,20 +17,21 @@ body {
 }
 
 h1 {
-    padding: 10px 0;
-    font-size: 18px;
+    padding-bottom: 20px;
+    font-size: 20px;
     font-weight: 900;
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
+    color: hsl(224, 23%, 55%);
 }
 
 /* --------------------------------- */
 
 .card {
-    width: 300px;
+    width: 420px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -41,7 +42,7 @@ p {
 }
 
 .card-content {
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -65,7 +66,7 @@ p {
 
 .right p:hover {
     text-decoration: none;
-    font-weight: 500;
+    color: hsla(245, 75%, 52%, 0.6);
     cursor: pointer;
 }
 
@@ -74,6 +75,7 @@ p {
 }
 
 .left .bold {
+    color: black;
     font-weight: 900;
 }
 
@@ -96,6 +98,7 @@ p {
 button {
     width: 100%;
     padding: 10px;
+    margin: 10px 0;
     border: none;
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
@@ -117,7 +120,7 @@ button:hover {
 
 .footer:hover {
     cursor: pointer;
-    font-weight: 700;
+    color: black;
 }
 
 /* --------------------------------- */ 
